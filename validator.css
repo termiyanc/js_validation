@@ -1,0 +1,14 @@
+.validator-valid {
+    border: 2px solid #0f0;
+}
+
+.validator-invalid {
+    border: 2px solid #f00;
+}
+
+.validator-tooltip {
+    margin: 5px 0;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #f00;
+}

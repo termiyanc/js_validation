@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script type="text/javascript" src="validator.js"></script>
+    <link rel="stylesheet" type="text/css" href="validator.css">
+    <style type="text/css">
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <label>Числовое значение: <br><input type="text" data-validator-value-type="numeric" name="numeric"></label>
+    <label>Символьное значение: <br><input type="text" data-validator-value-type="symbolic" name="symbolic"></label>
+    <label>E-mail: <br><input type="text" data-validator-value-type="email" name="e-mail"></label>
+    <label>Телефон: <br><input type="text" data-validator-value-type="phone" name="phone"></label>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
